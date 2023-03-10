@@ -4,7 +4,6 @@ import {
   signInWithEmailAndPassword,
 } from "firebase/auth";
 
-console.log(auth?.currentUser);
 // ******** Register ************
 export const Register = async (email, password) => {
   try {
